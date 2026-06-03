@@ -1,1 +1,73 @@
 @import url(css/variables.css);
+body {
+  font-size: 1.6rem;
+  font-family: var(--body-font);
+  background-color: var(--bcg-color);
+  color: var(--txt-color);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--bcg-color);
+}
+nav {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  gap: 3.2rem;
+}
+button {
+  color: var(--txt-color);
+}
+/* ==== SECTION ==== */
+section {
+  height: 100vh;
+}
+#hero {
+  background-image: url(images/profile-picture.jpg);
+  width: 100%;
+}
+#about {
+  background: red;
+}
+#projects {
+  background: green;
+}
+#skills {
+  background: blue;
+}
+#contact {
+  background: yellow;
+}
+
+/* ==== COMPONENTS ==== */
+.logo,
+.heading,
+.body {
+  font-size: 3.2rem;
+  letter-spacing: 0.24px;
+}
+.logo {
+  font-family: var(--logo-font);
+  letter-spacing: 1.24px;
+}
+.heading {
+  font-family: var(--heading-font);
+  font-weight: light;
+  font-style: italic;
+}
+.body {
+  font-family: var(--body-font);
+}
