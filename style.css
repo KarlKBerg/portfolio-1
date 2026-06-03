@@ -5,6 +5,7 @@ body {
   background-color: var(--bcg-color);
   color: var(--txt-color);
 }
+/* ==== HEADER ==== */
 header {
   display: flex;
   justify-content: space-between;
@@ -31,23 +32,28 @@ a:hover {
 button {
   color: var(--txt-color);
 }
-/* ==== SECTION ==== */
+/* ==== SECTIONS ==== */
 section {
   height: 100vh;
 }
+/* Hero section */
 #hero {
   background-image: url(images/profile-picture.jpg);
   width: 100%;
 }
+/* About section */
 #about {
   background: red;
 }
+/* Project section */
 #projects {
   background: green;
 }
+/* Skills section */
 #skills {
   background: blue;
 }
+/* Contact section */
 #contact {
   background: yellow;
 }
