@@ -3,4 +3,10 @@
   --logo-font: "Neuton", serif;
   --heading-font: "Trirong", serif;
   --body-font: "Palanquin", sans-serif;
+
+  /* ==== COLORS ==== */
+  --bcg-color: #111516;
+  --primary-color: #c9a84c;
+  --secondary-color: #c4622d;
+  --txt-color: #f5f0e8;
 }
