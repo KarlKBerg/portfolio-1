@@ -148,6 +148,10 @@ footer {
   gap: 1.6rem;
   transition: transform 0.3s ease-in-out;
 }
+.card img {
+  width: 100%;
+  flex-shrink: 0;
+}
 .card-desc {
   display: flex;
   flex-direction: column;
@@ -160,6 +164,15 @@ footer {
 }
 .card-container .card:hover {
   transform: scale(1.1);
+}
+.rep-btn {
+  background-color: #3d4142;
+  padding: 0.8rem 0;
+  text-align: center;
+  border-radius: 2rem;
+}
+.rep-btn:hover {
+  background-color: var(--secondary-color);
 }
 /* Skills section */
 .skills-container {
@@ -223,4 +236,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hidden {
+  display: none;
 }
