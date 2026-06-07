@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+  #about .section-container {
+    flex-direction: column;
+  }
+  #about,
+  #skills,
+  #contact,
+  #projects,
+  footer {
+    padding: 4rem;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .skills-container {
+    flex-direction: column;
+  }
+  .section-container img {
+    margin: 0 auto;
+  }
+  .button-container,
+  #main-nav {
+    display: none;
+  }
+  .fa-bars,
+  .mobile-logo {
+    display: block;
+  }
+}
