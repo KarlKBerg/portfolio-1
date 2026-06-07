@@ -44,7 +44,9 @@ section {
 /* Hero section */
 #hero {
   height: calc(100vh - 8rem);
-  background-image: url(images/hero-img.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/hero-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -71,6 +73,7 @@ section {
 .socials i:hover {
   color: var(--primary-color);
   cursor: pointer;
+  transform: scale(1.5);
 }
 .desc {
   display: flex;
