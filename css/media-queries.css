@@ -32,6 +32,10 @@
     gap: 2.4rem;
     padding-bottom: 3.2rem;
   }
+  #mobile-nav a:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 550px) {
