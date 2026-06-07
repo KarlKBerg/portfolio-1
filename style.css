@@ -1,4 +1,7 @@
 @import url(css/variables.css);
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-size: 1.6rem;
   font-family: var(--body-font);
@@ -70,16 +73,13 @@ button {
 .socials i:hover {
   color: var(--primary-color);
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 .desc {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.2rem;
-}
-.fa-circle {
-  font-size: 1.2rem;
 }
 .hero-buttons-container {
   display: flex;
@@ -162,14 +162,42 @@ button {
   transform: scale(1.1);
 }
 /* Skills section */
-#skills {
-  background: blue;
+.skills-container {
+  display: flex;
+  gap: 3.2rem;
+}
+.skill-card {
+  flex: 1;
+}
+.skills {
+  display: flex;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+.skills p {
+  padding: 0.4rem 1.2rem;
+  border: 1px solid white;
+  border-radius: 2.4rem;
 }
 /* Contact section */
 #contact {
-  background: yellow;
 }
-
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.contact-socials {
+  display: flex;
+  gap: 2.4rem;
+  font-size: 2.4rem;
+  gap: 2.4rem;
+}
+.contact-socials i:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transform: scale(1.1);
+}
 /* ==== COMPONENTS ==== */
 .logo,
 .heading,
