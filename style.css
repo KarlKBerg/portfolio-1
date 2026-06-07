@@ -28,6 +28,10 @@ header {
 .fa-bars {
   font-size: 2.4rem;
 }
+.fa-bars:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
 nav {
   display: flex;
   gap: 3.2rem;
