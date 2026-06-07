@@ -38,9 +38,6 @@ header a:hover {
   gap: 3.2rem;
   align-items: center;
 }
-button {
-  color: var(--txt-color);
-}
 /* ==== SECTIONS ==== */
 /* Hero section */
 #hero {
@@ -53,6 +50,7 @@ button {
   background-position: center;
   width: 100%;
   padding: 0rem 8rem;
+  position: relative;
 }
 .hero-container {
   display: flex;
