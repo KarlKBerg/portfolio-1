@@ -26,7 +26,7 @@ nav {
   gap: 3.2rem;
   align-items: center;
 }
-a:hover {
+header a:hover {
   color: var(--primary-color);
   cursor: pointer;
 }
@@ -38,9 +38,6 @@ button {
   color: var(--txt-color);
 }
 /* ==== SECTIONS ==== */
-section {
-  height: 100vh;
-}
 /* Hero section */
 #hero {
   height: calc(100vh - 8rem);
@@ -115,8 +112,6 @@ section {
   padding: 8rem;
 }
 /* About section */
-#about {
-}
 .section-container {
   display: flex;
   justify-content: space-between;
@@ -140,8 +135,31 @@ section {
   gap: 2.4rem;
 }
 /* Project section */
-#projects {
-  background: green;
+.card-container {
+  display: flex;
+  gap: 3.2rem;
+}
+.card {
+  background-color: #1c2426;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  transition: transform 0.3s ease-in-out;
+}
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.4rem;
+}
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.card:hover {
+  transform: scale(1.1);
 }
 /* Skills section */
 #skills {
