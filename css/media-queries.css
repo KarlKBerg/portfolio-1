@@ -26,6 +26,12 @@
   .mobile-logo {
     display: block;
   }
+  #mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding-bottom: 3.2rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
