@@ -27,3 +27,18 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .about-description {
+    min-width: 25ch;
+  }
+  #hero {
+    padding: 0 4rem;
+  }
+  #hero .desc h2 {
+    display: none;
+  }
+  .heading {
+    font-size: 3.2rem;
+  }
+}
