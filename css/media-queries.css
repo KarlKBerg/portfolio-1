@@ -22,7 +22,7 @@
   #main-nav {
     display: none;
   }
-  .fa-bars,
+  .ham-menu,
   .mobile-logo {
     display: block;
   }
